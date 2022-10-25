@@ -1,15 +1,14 @@
 <template>
   <Header color="#F5F5F5"/>
   <div class="row text-center main-row">
-    <!-- Bg Curl -->
-    <div>
-      <img alt="#" class="bg-curl3" src="../assets/images/curly-bg3.png">
-    </div>
     <div class="col-12">
       <div class="text-1 mt-5 pt-3">
         LAVIA ACADEMY
       </div>
-
+      <!-- Bg Curl -->
+      <div>
+        <img alt="#" class="bg-curl3" src="../assets/images/curly-bg3.png">
+      </div>
       <div class="text-2 mt-3">
         Lavia kompaniyasi Xitoylik
         investorlar tomonidan
