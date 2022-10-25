@@ -1,6 +1,6 @@
 <template>
     <Banner />
-    <HomePageContent />
+<!--    <HomePageContent />-->
 </template>
 
 <script>
