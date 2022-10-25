@@ -1,11 +1,11 @@
 <template>
   <div class="row header-row" :style="{background: color}">
     <div class="col-3 col-md d-flex justify-content-center ms-sm-0 ms-lg-5">
-      <img src="../assets/images/logo.png" height="67" width="67" alt="logo">
+      <img src="../assets/images/logo.png" height="67" width="67" alt="logo" @click="home">
     </div>
     <div class="col-7 d-none d-md-block lists-group">
-      <span class="list-item">Bosh sahifa</span>
-      <span class="list-item">Qabul</span>
+      <span class="list-item" @click="home">Bosh sahifa</span>
+      <span class="list-item" @click="reception">Qabul</span>
       <span class="list-item">Akademiya</span>
     </div>
     <div class="col d-none d-md-block d-flex justify-content-end me-sm-0 me-lg-5">
@@ -31,6 +31,14 @@
 <script>
 export default {
   name: "Header",
+  methods: {
+    home() {
+      this.$router.push('/')
+    },
+    reception() {
+      this.$router.push('/reception')
+    }
+  },
   props: {
     color: {
       type: String,
@@ -60,6 +68,11 @@ export default {
 .list-item {
   text-align: start;
   padding: 0 18px;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
 }
 
 .register-button {

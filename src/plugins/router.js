@@ -1,9 +1,13 @@
-import {createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
     {
         path: '',
         component: () => import('../pages/Home.vue')
+    },
+    {
+        path: '/reception',
+        component: () => import('../pages/Reception.vue')
     },
 ]
 

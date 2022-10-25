@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <div class="row banner-row">
     <div class="col-12 col-md-6 d-flex justify-content-center  ps-xl-5">
       <div class="ms-sm-0 ms-lg-5 left-side">
@@ -40,8 +41,10 @@
 </template>
 
 <script>
+import Header from "./Header.vue";
 export default {
-  name: "Banner"
+  name: "Banner",
+  components: {Header}
 }
 </script>
 

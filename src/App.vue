@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid">
-  <Header />
     <RouterView/>
   <Footer />
   </div>

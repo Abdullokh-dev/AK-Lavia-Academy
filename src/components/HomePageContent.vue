@@ -282,8 +282,10 @@
 </template>
 
 <script>
+import Header from "./Header.vue";
 export default {
-  name: "HomePageContent"
+  name: "HomePageContent",
+  components: {Header}
 }
 </script>
 
