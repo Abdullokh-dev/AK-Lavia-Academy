@@ -13,6 +13,10 @@ const routes = [
         path: '/academy',
         component: () => import('../pages/Academy.vue')
     },
+    {
+        path: '/register',
+        component: () => import('../pages/Register.vue')
+    },
 ]
 
 const router = createRouter({

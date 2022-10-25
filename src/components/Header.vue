@@ -9,7 +9,7 @@
       <span class="list-item" @click="academy">Akademiya</span>
     </div>
     <div class="col d-none d-md-block d-flex justify-content-end me-sm-0 me-lg-5">
-      <button class="register-button"> Ro'yxatdan o'tish </button>
+      <button class="register-button" @click="register"> Ro'yxatdan o'tish </button>
     </div>
     <div class="col d-block d-md-none d-flex justify-content-end">
       <button class="show-btn" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -18,11 +18,11 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="lists-group lists-toggled">
-          <li><span class="list-item">Bosh sahifa</span></li>
-          <li><span class="list-item">Qabul</span></li>
-          <li><span class="list-item">Akademiya</span></li>
+          <li><span class="list-item" @click="home">Bosh sahifa</span></li>
+          <li><span class="list-item" @click="reception">Qabul</span></li>
+          <li><span class="list-item" @click="academy">Akademiya</span></li>
           <hr />
-          <li><span class="list-item">Ro’yxatdan o’tish</span></li>
+          <li><span class="list-item" @click="register">Ro’yxatdan o’tish</span></li>
         </ul>
     </div>
   </div>
@@ -40,6 +40,9 @@ export default {
     },
     academy() {
       this.$router.push('/academy')
+    },
+    register() {
+      this.$router.push('/register')
     }
   },
   props: {

@@ -277,7 +277,6 @@
     <div class="resp-curl">
       <img alt="#" class="bg-curl" src="../assets/images/curly-bg-9.png" width="200">
     </div>
-
   </div>
 </template>
 
