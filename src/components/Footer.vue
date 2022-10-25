@@ -204,7 +204,6 @@ hr {
   }
 }
 
-/*@media only screen and (max-width: 991px) and (min-width: 768px)*/
 @media only screen and (max-width: 991px) {
   .top-side {
     text-align: center;

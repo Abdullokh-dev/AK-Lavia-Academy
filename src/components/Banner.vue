@@ -3,7 +3,7 @@
     <div class="col-12 col-md-6 d-flex justify-content-center  ps-xl-5">
       <div class="ms-sm-0 ms-lg-5 left-side">
         <div class="text-1">O‘zbekistonda hali bunaqasi bo‘lmagan!</div>
-        <div class="text-2">SIZ ORZU  Qilgan Kasb</div>
+        <div class="text-2">SIZ ORZU Qilgan Kasb</div>
         <div class="text-3">
           <span class="red-text">DIQQAT: </span>
           <span>
@@ -12,22 +12,22 @@
           </span>
         </div>
         <div class="mt-4 mb-5 pb-4">
-          <button class="more-info-btn"> Batafsil ma’lumot </button>
+          <button class="more-info-btn"> Batafsil ma’lumot</button>
         </div>
       </div>
     </div>
 
     <div class="col-12 col-md-6 mt-md-5 mt-lg-2 mt-xl-4 d-flex justify-content-center">
       <div class="card-1">
-        <img src="../assets/images/sandbox-img.png" class="sandbox-image">
+        <img class="sandbox-image" src="../assets/images/sandbox-img.png">
         <div class="card-1-text-1">Yuqori DAROMAD</div>
         <div class="card-1-text-2">Biz bilan kelajak kasblarini egallang!</div>
       </div>
       <div>
-        <img src="../assets/images/banner1.png" class="image" alt="#">
+        <img alt="#" class="image" src="../assets/images/banner1.png">
       </div>
       <div class="card-2">
-        <img src="../assets/images/heart-sandbox.png" class="heart-sandbox-image">
+        <img class="heart-sandbox-image" src="../assets/images/heart-sandbox.png">
         <div class="card-2-text-1">40k +</div>
         <div class="card-2-text-2">Bizning o’quvchilar</div>
         <div class="card-2-students">
@@ -54,6 +54,7 @@ export default {
   width: 320px;
   height: 295px;
 }
+
 /* left side card */
 .card-1 {
   font-family: Rubik, sans-serif;
@@ -171,6 +172,7 @@ export default {
     padding-left: 20px;
     text-align: left;
   }
+
   .card-1-text-1, .card-1-text-2 {
     font-size: 9px;
     line-height: 9px;
@@ -187,20 +189,25 @@ export default {
   .left-side {
     text-align: left;
   }
+
   .text-2 {
     width: 350px;
   }
+
   .banner-row {
     padding-left: 20px !important;
   }
+
   .text-2 {
     font-size: 50px;
     line-height: 55px;
   }
+
   .image {
     width: 420px;
     height: 395px;
   }
+
   .card-1 {
     border-radius: 10px;
     text-align: center;
@@ -267,6 +274,7 @@ export default {
     font-size: 70px;
     line-height: 80px;
   }
+
   .text-3 {
     line-height: 36px;
     font-size: 18px;
@@ -332,19 +340,23 @@ export default {
   .text-1 {
     font-size: 23px;
   }
+
   .text-2 {
     font-size: 75px;
     width: 500px;
   }
+
   .more-info-btn {
     border-radius: 15px;
     font-size: 16px;
     padding: 20px 20px;
   }
+
   .image {
     width: 600px;
     height: 566px;
   }
+
   .card-1 {
     width: 200px;
     margin: 120px 570px 0 0;
@@ -362,6 +374,7 @@ export default {
   .card-1-text-2 {
     font-size: 13px;
   }
+
   /* right side card */
   .card-2 {
     width: 200px;
