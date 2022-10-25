@@ -6,7 +6,7 @@
     <div class="col-7 d-none d-md-block lists-group">
       <span class="list-item" @click="home">Bosh sahifa</span>
       <span class="list-item" @click="reception">Qabul</span>
-      <span class="list-item">Akademiya</span>
+      <span class="list-item" @click="academy">Akademiya</span>
     </div>
     <div class="col d-none d-md-block d-flex justify-content-end me-sm-0 me-lg-5">
       <button class="register-button"> Ro'yxatdan o'tish </button>
@@ -37,6 +37,9 @@ export default {
     },
     reception() {
       this.$router.push('/reception')
+    },
+    academy() {
+      this.$router.push('/academy')
     }
   },
   props: {

@@ -9,6 +9,10 @@ const routes = [
         path: '/reception',
         component: () => import('../pages/Reception.vue')
     },
+    {
+        path: '/academy',
+        component: () => import('../pages/Academy.vue')
+    },
 ]
 
 const router = createRouter({
