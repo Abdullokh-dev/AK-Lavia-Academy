@@ -7,7 +7,7 @@
 
     <!-- Btn alert -->
     <div class="alert d-flex justify-content-end">
-      <button class="btn-alert">
+      <button class="btn-alert" @click="bonus">
         <span class="percent">50%</span> <span class="discount">Chegirma</span>
       </button>
     </div>
@@ -284,6 +284,11 @@
 import Header from "./Header.vue";
 export default {
   name: "HomePageContent",
+  methods: {
+    bonus() {
+      this.$router.push('/bonus')
+    }
+  },
   components: {Header}
 }
 </script>
