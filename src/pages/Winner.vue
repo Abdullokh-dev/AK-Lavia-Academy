@@ -3,22 +3,22 @@
     <div class="col-12 d-md-none"></div>
 
     <div class="col-12">
-      <div class="text-1">Siz g‘alaba qozondingiz!</div>
+      <div class="text-1" data-aos="fade-down">Siz g‘alaba qozondingiz!</div>
     </div>
 
     <div class="col-12">
-      <div class="text-2">
+      <div class="text-2" data-aos="zoom-in">
         Endi sizda PREMIUM ta‘rifi uchun 50% chegirma,
         STANDART ta‘rifi uchun 30% chegirma mavjud.
       </div>
     </div>
 
-    <div class="col-12">
+    <div class="col-12" data-aos="zoom-out">
       <div class="time">00 : 24 : 58</div>
     </div>
 
     <div class="col-12">
-      <div class="text-3">
+      <div class="text-3" data-aos="zoom-in">
         Chegirma muddati: 48 soat.
         Ushbu vaqt ichida siz shartnomani imzolashingiz kerak.
       </div>

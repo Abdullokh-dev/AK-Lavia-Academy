@@ -1,14 +1,14 @@
 <template>
   <div class="row text-center">
-    <div class="col-12 text-1"> LAVIA ACADEMY BONUS</div>
-    <div class="col-12 text-2">
+    <div class="col-12 text-1" data-aos="fade-down"> LAVIA ACADEMY BONUS</div>
+    <div class="col-12 text-2" data-aos="zoom-in">
       Siz test yechish orqali xohlagan kursingizga 50% li chegirmaga ega bo’lishingiz mumkin!
     </div>
-    <div class="col-12 text-3">Test orqali omadingizni sinab ko’ring!</div>
-    <div class="col-12 text-3"> Testni yechish uchun ro’yxatdan o’tishingiz kerak!</div>
+    <div class="col-12 text-3" data-aos="zoom-out">Test orqali omadingizni sinab ko’ring!</div>
+    <div class="col-12 text-3" data-aos="zoom-in"> Testni yechish uchun ro’yxatdan o’tishingiz kerak!</div>
     <div class="col">
       <div>
-        <button @click="register"> Ro’yxatdan o’tish</button>
+        <button @click="register" data-aos="fade-up"> Ro’yxatdan o’tish</button>
       </div>
     </div>
   </div>
