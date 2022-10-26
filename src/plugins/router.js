@@ -21,6 +21,10 @@ const routes = [
         path: '/bonus',
         component: () => import('../pages/Bonus.vue')
     },
+    {
+        path: '/winner',
+        component: () => import('../pages/Winner.vue')
+    },
 ]
 
 const router = createRouter({
