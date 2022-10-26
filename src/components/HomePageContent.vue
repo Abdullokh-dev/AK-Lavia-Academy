@@ -209,7 +209,7 @@
 
     <div class="col-12 p-5">
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4 ps-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 ps-3">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Timur.png">
             <div class="play-btn">
@@ -219,7 +219,7 @@
           <div class="text-center famous-name">Timur Alixanov</div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4 mt-3 mt-sm-0 ps-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-sm-0 ps-3">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Nizamo.png">
             <div class="play-btn">
@@ -229,7 +229,7 @@
           <div class="text-center famous-name">Nizamo</div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4 mt-3 mt-lg-0 p-3 ps-3 pt-lg-0">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-lg-0 p-3 ps-3 pt-lg-0">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Salikh.png">
             <div class="play-btn">
@@ -239,7 +239,7 @@
           <div class="text-center famous-name">Salikh Prod</div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4 mt-3 mt-lg-0 p-sm-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-lg-0 p-sm-3 ps-3 pt-xl-0">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Konsta.png">
             <div class="play-btn">
