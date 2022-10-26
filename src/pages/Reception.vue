@@ -4,28 +4,28 @@
   <div class="row main-row">
 
     <div class="col-12 col-md-6 col-xl-7 mt-md-5 ps-md-5">
-      <div class="text-1 mt-5">
+      <div class="text-1 mt-5" data-aos="fade-down-right" data-aos-delay="100">
         ORZU QILGAN KASBINGIZGA BIZ BILAN BIRGA ERISHING!
       </div>
-      <div class="text-2">
+      <div class="text-2" data-aos="fade-right" data-aos-delay="100">
         Kelajak sizning qo’lingizda !
       </div>
     </div>
 
     <div class="col-12 col-md-6 col-xl-5 text-center">
-      <div class="reception-img">
+      <div class="reception-img" data-aos="fade-in" data-aos-delay="400">
         <img alt="#" src="../assets/images/reception/reception.png">
       </div>
     </div>
 
     <div class="col-12">
-      <div class="text-3">
+      <div class="text-3" data-aos="fade-up" data-aos-easing="linear">
         Hozir bizda dasturlash va kiberxavfsizlik yo‘nalishlar mavjud.
       </div>
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
-      <div class="course-card mt-5 pt-4">
+      <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="400">
         <img src="../assets/images/reception/one.png" alt="#">
         <div class="course-name">
           Lavia android developer
@@ -44,7 +44,7 @@
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
-      <div class="course-card mt-5 pt-4">
+      <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="500">
         <img src="../assets/images/reception/two.png" alt="#">
         <div class="course-name">
           Lavia IOS Developer
@@ -64,7 +64,7 @@
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
-      <div class="course-card mt-5 pt-4">
+      <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="600">
         <img src="../assets/images/reception/three.png" alt="#">
         <div class="course-name">
           Lavia Cybersecurity Analyst
@@ -84,7 +84,7 @@
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
-      <div class="course-card mt-5 pt-4">
+      <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="700">
         <img src="../assets/images/reception/four.png" alt="#">
         <div class="course-name">
           Lavia Full Stack Software Developer
@@ -109,18 +109,19 @@
     </div>
 
     <div class="col-12 col-md-8 col-xl-6">
-      <div class="title">
+      <div class="title" data-aos="fade-right">
         Lavia bilan malakali mutaxasislardan dars oling!
       </div>
     </div>
 
-    <div class="col-12 col-md-4 col-xl-6 text-center">
+    <div class="col-12 col-md-4 col-xl-6 text-center" data-aos="fade-right">
       <div class="button-div">
         <button class="get-course-btn mt-3 mt-md-0" @click="buyCourse"> Kursga yozilish </button>
       </div>
     </div>
     <div class="row d-flex justify-content-center">
-      <div class="col-12 col-md-6 col-xl-3 text-center mt-5">
+
+      <div class="col-12 col-md-6 col-xl-3 text-center mt-5" data-aos="fade-up" data-aos-delay="400">
         <img src="../assets/images/reception/teacher-1.png" alt="#">
         <div class="teacher-name">Khamzaev Abdullokh</div>
         <div class="teacher-position">Director</div>
@@ -157,7 +158,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-xl-3 mt-5 text-center">
+      <div class="col-12 col-md-6 col-xl-3 mt-5 text-center" data-aos="fade-up" data-aos-delay="500">
         <img src="../assets/images/reception/teacher-2.png" alt="#">
         <div class="teacher-name">Rustamova Nigina</div>
         <div class="teacher-position">O'quvchi</div>
@@ -194,7 +195,7 @@
         </div>
       </div>
 
-      <div class="col-12 mt-5 col-xl-3 text-center">
+      <div class="col-12 mt-5 col-xl-3 text-center" data-aos="fade-up" data-aos-delay="600">
         <img src="../assets/images/reception/teacher-3.png" alt="#">
         <div class="teacher-name">Oybekov Doston</div>
         <div class="teacher-position">Mentor</div>
