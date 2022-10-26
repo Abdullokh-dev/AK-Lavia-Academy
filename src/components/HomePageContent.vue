@@ -7,19 +7,19 @@
 
     <!-- Btn alert -->
     <div class="alert d-flex justify-content-end">
-      <button class="btn-alert" @click="bonus">
+      <button class="btn-alert" @click="bonus" data-aos="zoom-in-left" data-aos-delay="1500">
         <span class="percent">50%</span> <span class="discount">Chegirma</span>
       </button>
     </div>
 
     <div class="col-12 d-flex justify-content-center">
-      <div class="header-text">
+      <div class="header-text" data-aos="fade-up">
         Nima uchun zamonaviy kasblarni o‘rganishim kerak?
       </div>
     </div>
 
     <div class="col-12 ps-md-5 ps-lg-5 ps-lg-3 sms-block">
-      <div class="card-box">
+      <div class="card-box" data-aos="fade-up" data-aos-delay="100">
         <div class="d-flex">
           <img alt="#" class="statistic-sandbox" src="../assets/images/statistic-sandbox.png">
         </div>
@@ -31,12 +31,12 @@
     </div>
 
     <div class="col-12 col-md-6 mt-3 ps-lg-5 d-flex justify-content-center justify-content-md-start">
-      <img alt="#" src="../assets/images/statistic-person.png" width="300">
+      <img alt="#" src="../assets/images/statistic-person.png" width="300" data-aos="flip-down">
     </div>
 
     <div class="col-12 col-md-6">
       <div class="colored-ul">
-        <ul>
+        <ul data-aos="zoom-in">
           <li class="items-title"> Bunga sabablar:</li>
           <li class="item1">Daromad pastligi</li>
           <li class="item2">Noqulay ish sharoiti</li>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="col-12 d-flex justify-content-center mb-xxl-5 pb-xxl-5">
-      <div class="header-text2">
+      <div class="header-text2"  data-aos="fade-up">
         Agar yuqoridagi 71% foiz insonlar qatoriga qo‘shilmay desangiz,oxirigicha o‘qing! <br/>
         <svg fill="none" height="26" viewBox="0 0 26 26" width="26" xmlns="http://www.w3.org/2000/svg">
           <path d="M13 23.8334C18.9831 23.8334 23.8333 18.9832 23.8333 13.0001C23.8333 7.017 18.9831 2.16675 13 2.16675C7.01691 2.16675 2.16667 7.017 2.16667 13.0001C2.16667 18.9832 7.01691 23.8334 13 23.8334Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
@@ -63,29 +63,29 @@
 
     <div class="row flex-row-reverse">
       <div class="col-12 col-md-6">
-        <p class="team-title ps-0">
+        <p class="team-title ps-4" data-aos="zoom-in-left">
           Siz zamonaviy kasblarni egallash orqali quyidagilarni qo‘lga kiritasiz:
         </p>
-        <ul class="ul2 pt-4">
+        <ul class="ul2 pt-4 ps-5" data-aos="zoom-in-left">
           <li class="item2">Tajribaga qarab o‘sib boruvchi yuqori <span class="oranged">DAROMAD</span></li>
           <li class="item3"><span class="oranged">XOHISHINGIZGA</span> ko‘ra uyda ishlash yoki qulay sharoitli ofisda
             ishlash
           </li>
           <li class="item4"> Doimiy sizni <span class="oranged">RIVOJLANTIRUVCHI</span>, zerikarli bo‘lmagan ish</li>
         </ul>
-        <p class="team-bottom-text pt-5">
+        <p class="team-bottom-text pt-5 ps-3" data-aos="fade-in" data-aos-delay="400">
           Agar shu joygacha o‘qigan bo‘lsangiz, tabriklayman hayotingizni o‘zgartirish uchun yana bir qadam qoldi !
         </p>
       </div>
 
-      <div class="col-12 col-md-6 team-img">
+      <div class="col-12 col-md-6 team-img" data-aos="zoom-in" data-aos-delay="1400">
         <img alt="#" src="../assets/images/teams.png">
       </div>
 
     </div>
 
     <div class="col-12 d-flex justify-content-center">
-      <div class="header-text3">
+      <div class="header-text3" data-aos="fade-right">
         Internet rivojlanishi bilan minglab bizneslar
         <span class="fried-text">INTERNET OLAMIGA</span> kirib kelmoqda.
       </div>
@@ -96,7 +96,7 @@
       <div>
         <img alt="#" class="bg-curl" src="../assets/images/curly-bg4.png" style="opacity: 0.3">
       </div>
-      <div class="header3-left-side ps-md-3">
+      <div class="header3-left-side ps-md-3" data-aos="flip-up">
         <p class="header3-text mt-md-0 mt-lg-5">
           Ular o‘z loyihalari rivoji uchun <span class="fried-text">MILLION DOLLARLAB</span> mablag‘ sarflashmoqda.
           Bu million dollarlar aynan kimlarga sarf qilinmoqda bilasizmi?
@@ -116,26 +116,26 @@
       <div>
         <img alt="#" class="bg-curl3" src="../assets/images/curly-bg3.png">
       </div>
-      <img alt="#" class="steve" src="../assets/images/steve.png" style="z-index: 1">
+      <img alt="#" class="steve" src="../assets/images/steve.png" style="z-index: 1" data-aos="flip-up">
     </div>
 
     <div class="col-12">
       <div class="row d-flex justify-content-center">
         <div class="col-11 about-academy text-center">
-          <div class="about-academy-text">
+          <div class="about-academy-text" data-aos="zoom-up">
             <span class="fried-text2">LAVIA ACADEMY</span>
             ham sizni shunday kasb egasi bo‘lishingizga yordam beradi. Nega aynan
             <span class="fried-text2">LAVIA ACADEMY</span> da o‘qishingiz kerak?
           </div>
 
-          <div class="about-academy-text2">
+          <div class="about-academy-text2" data-aos="zoom-up">
             Lavia kompaniyasi Xitoylik investorlar tomonidan
             moliyalashtirilgan bo‘lib, O‘zbekistonda aniq rejaga
             asoslangan IT(Information Technology) , biznes loyihalarini
             boshlamoqchi edi.
           </div>
 
-          <div class="about-academy-text3">
+          <div class="about-academy-text3" data-aos="zoom-up">
             Afsuski, talab darajasidagi mutaxassislar O‘zbekistonda juda kam va
             borlari ham ish bilan band.
           </div>
@@ -153,7 +153,7 @@
 
     <div class="row flex-row-reverse">
 
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6" data-aos="fade-down" data-aos-easing="linear">
         <div class="about-academy2-text">
           Shu sababdan kompaniya o‘zi uchun mutaxassislarni yetishtirib chiqarishni maqsad qildi va <span
           class="oranged">LAVIA ACADEMY</span>
@@ -172,13 +172,13 @@
         </p>
       </div>
 
-      <div class="col-12 col-md-6 d-flex justify-content-center mt-5">
+      <div class="col-12 col-md-6 d-flex justify-content-center mt-5" data-aos="fade-up" data-aos-easing="linear">
         <img alt="#" class="laptop" src="../assets/images/sitting-with-laptop.png" width="350">
       </div>
 
     </div>
 
-    <div class="col-12 mt-5">
+    <div class="col-12 mt-5" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
       <div class="row d-flex justify-content-center mt-2 me-3 ms-3" style="background-color: #FFA50208;">
 
         <div class="col-11 search-box text-center">
@@ -198,7 +198,7 @@
     </div>
 
     <div class="col-12 d-flex justify-content-center">
-      <div class="header-text4">
+      <div class="header-text4" data-aos="fade-down">
         BIZGA ISHONCH BILDIRGAN MASHHURLAR:
       </div>
     </div>
@@ -209,7 +209,7 @@
 
     <div class="col-12 p-5">
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 ps-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 ps-3" data-aos="fade-in" data-aos-delay="100">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Timur.png">
             <div class="play-btn">
@@ -219,7 +219,7 @@
           <div class="text-center famous-name">Timur Alixanov</div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-sm-0 ps-3">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-sm-0 ps-3" data-aos="fade-in" data-aos-delay="150">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Nizamo.png">
             <div class="play-btn">
@@ -229,7 +229,7 @@
           <div class="text-center famous-name">Nizamo</div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-lg-0 p-3 ps-3 pt-lg-0">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-lg-0 p-3 ps-3 pt-lg-0" data-aos="fade-in" data-aos-delay="200">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Salikh.png">
             <div class="play-btn">
@@ -239,7 +239,7 @@
           <div class="text-center famous-name">Salikh Prod</div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-lg-0 p-sm-3 ps-3 pt-xl-0">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-3 mt-lg-0 p-sm-3 ps-3 pt-xl-0" data-aos="fade-in" data-aos-delay="250">
           <div class="card">
             <img alt="..." class="img-fluid" src="../assets/images/Konsta.png">
             <div class="play-btn">
@@ -259,16 +259,16 @@
       <div class="row d-flex justify-content-center mt-5">
 
         <div class="col-11 search-box text-center mb-5">
-          <div class="search-box-text">
+          <div class="search-box-text" data-aos="fade-down" data-aos-delay="200">
             Qabul boshlandi azizlar!!!
           </div>
-          <div class="acceptance-box-text">
+          <div class="acceptance-box-text" data-aos="fade-up" data-aos-delay="400">
             Hozir bizda dasturlash va kiberxavfsizlik yo‘nalishlar mavjud.
           </div>
-          <div class="acceptance-box-text-last">
+          <div class="acceptance-box-text-last" data-aos="fade-up" data-aos-delay="600">
             Ko’proq ma’lumot olish uchun qabul menyusiga o’ting !!
           </div>
-          <button class="acceptance-btn" @click="reception">Qabul</button>
+          <button class="acceptance-btn" @click="reception" data-aos="fade-up" data-aos-delay="800">Qabul</button>
         </div>
       </div>
     </div>
@@ -436,7 +436,6 @@ li {
   font-size: 21px;
   margin-top: 80px;
   text-align: center;
-  padding: 0 20px;
 }
 
 .oranged {

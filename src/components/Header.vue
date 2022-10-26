@@ -1,34 +1,48 @@
 <template>
   <div class="row header-row" :style="{background: color}">
-    <div class="col-3 col-md d-flex justify-content-center ms-sm-0 ms-lg-5">
-      <img src="../assets/images/logo.png" height="67" width="67" alt="logo" @click="home">
-    </div>
-    <div class="col-7 d-none d-md-block lists-group">
-      <span class="list-item" @click="home">Bosh sahifa</span>
-      <span class="list-item" @click="reception">Qabul</span>
-      <span class="list-item" @click="academy">Akademiya</span>
-    </div>
-    <div class="col d-none d-md-block d-flex justify-content-end me-sm-0 me-lg-5">
-      <button class="register-button" @click="register"> Ro'yxatdan o'tish </button>
-    </div>
-    <div class="col d-block d-md-none d-flex justify-content-end">
-      <button class="show-btn" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <img src="../assets/images/bar-chart.png">
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="lists-group lists-toggled">
-          <li><span class="list-item" @click="home">Bosh sahifa</span></li>
-          <li><span class="list-item" @click="reception">Qabul</span></li>
-          <li><span class="list-item" @click="academy">Akademiya</span></li>
-          <hr />
-          <li><span class="list-item" @click="register">Ro’yxatdan o’tish</span></li>
-        </ul>
+    <div class="col">
+      <div class="row" data-aos="fade-down" data-aos-duration="1000">
+        <div class="col-3 col-md d-flex justify-content-center ms-sm-0 ms-lg-5">
+          <img src="../assets/images/logo.png" height="67" width="67" alt="logo" @click="home">
+        </div>
+        <div class="col-7 d-none d-md-block lists-group">
+          <span class="list-item" @click="home">Bosh sahifa</span>
+          <span class="list-item" @click="reception">Qabul</span>
+          <span class="list-item" @click="academy">Akademiya</span>
+        </div>
+        <div class="col d-none d-md-block d-flex justify-content-end me-sm-0 me-lg-5">
+          <button class="register-button" @click="register"> Ro'yxatdan o'tish </button>
+        </div>
+        <div class="col d-block d-md-none d-flex justify-content-end">
+          <button class="show-btn" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <img src="../assets/images/bar-chart.png">
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="lists-group lists-toggled">
+            <li><span class="list-item" @click="home">Bosh sahifa</span></li>
+            <li><span class="list-item" @click="reception">Qabul</span></li>
+            <li><span class="list-item" @click="academy">Akademiya</span></li>
+            <hr />
+            <li><span class="list-item" @click="register">Ro’yxatdan o’tish</span></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  delay: 200,
+  duration: 1500,
+  once: false,
+  mirror: false
+});
+
+
 export default {
   name: "Header",
   methods: {

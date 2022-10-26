@@ -1,8 +1,8 @@
 <template>
   <Header />
   <div class="row banner-row">
-    <div class="col-12 col-md-6 d-flex justify-content-center  ps-xl-5">
-      <div class="ms-sm-0 ms-lg-5 left-side">
+    <div class="col-12 col-md-6 d-flex justify-content-center ps-xl-5">
+      <div class="ms-sm-0 ms-lg-5 left-side" data-aos="fade-down-right" data-aos-delay="100">
         <div class="text-1">O‘zbekistonda hali bunaqasi bo‘lmagan!</div>
         <div class="text-2">SIZ ORZU Qilgan Kasb</div>
         <div class="text-3">
@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-md-6 mt-md-5 mt-lg-2 mt-xl-4 d-flex justify-content-center">
+    <div class="col-12 col-md-6 mt-md-5 mt-lg-2 mt-xl-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="200">
       <div class="card-1">
         <img class="sandbox-image" src="../assets/images/sandbox-img.png">
         <div class="card-1-text-1">Yuqori DAROMAD</div>

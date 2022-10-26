@@ -5,17 +5,17 @@
       <!-- Top side -->
       <div class="row top-side">
         <div class="col-12 col-lg-5">
-          <div class="text-top-side">
+          <div class="text-top-side" data-aos="fade-right" data-aos-delay="200">
             Imkoniyatni qo’ldan <br> boy bermang !
             <span class="narrow ps-5">
               <img src="../assets/images/narrow1.png">
             </span>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-right" data-aos-delay="400">
           <button class="send-btn" @click="register">Ro’yxatdan o’tish</button>
         </div>
-        <div class="col d-flex align-items-end d-none d-lg-block">
+        <div class="col d-flex align-items-end d-none d-lg-block" data-aos="fade-left" data-aos-delay="400">
           <img src="../assets/images/footer-img.png" width="350" alt="#" class="image">
         </div>
       </div>
@@ -23,7 +23,7 @@
       <!-- Bottom side -->
       <div class="row bottom-side">
 
-        <div class="col-12 col-md-8 col-xl-3">
+        <div class="col-12 col-md-8 col-xl-3" data-aos="fade-in" data-aos-delay="400">
           <div class="col d-flex justify-content-center mt-5">
             <img src="../assets/images/logo.png" alt="#" class="logo">
           </div>
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="col-6 col-md-4 col-xl-2 d-flex justify-content-md-start mt-0 p-0 ps-sm-2 mt-md-5">
+        <div class="col-6 col-md-4 col-xl-2 d-flex justify-content-md-start mt-0 p-0 ps-sm-2 mt-md-5" data-aos="fade-in" data-aos-delay="600">
           <ul class="service-ul">
             <li class="list-name">Services</li>
             <li>Documentation</li>
@@ -51,7 +51,7 @@
           </ul>
         </div>
 
-        <div class="col-6 col-md-4 col-xl-2 d-md-flex justify-content-md-center p-0 pe-sm-2 mt-xl-5">
+        <div class="col-6 col-md-4 col-xl-2 d-md-flex justify-content-md-center p-0 pe-sm-2 mt-xl-5" data-aos="fade-in" data-aos-delay="800">
           <ul class="ul2">
             <li class="list-name">Company</li>
             <li>About</li>
@@ -61,7 +61,7 @@
           </ul>
         </div>
 
-        <div class="col-4 col-xl-2 d-md-flex justify-content-md-center p-0 ps-sm-2 mt-xl-5">
+        <div class="col-4 col-xl-2 d-md-flex justify-content-md-center p-0 ps-sm-2 mt-xl-5" data-aos="fade-in" data-aos-delay="1000">
           <ul>
             <li class="list-name">Job Info</li>
             <li>Select</li>
@@ -70,7 +70,7 @@
           </ul>
         </div>
 
-        <div class="col p-0 pe-sm-2 mt-xl-5 d-md-flex justify-content-md-center">
+        <div class="col p-0 pe-sm-2 mt-xl-5 d-md-flex justify-content-md-center" data-aos="fade-in" data-aos-delay="1200">
           <ul class="ul2">
             <li class="list-name">Contact</li>
             <li>Call : 99 982 34 43</li>
