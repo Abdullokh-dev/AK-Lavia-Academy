@@ -6,27 +6,27 @@
     </div>
 
     <div class="col-12 col-lg-9">
-      <div class="col-12 d-xxl-flex justify-content-xxl-center">
+      <div class="col-12 d-xxl-flex justify-content-xxl-center" data-aos="fade-down" data-aos-delay="300">
         <div class="text-1">Xush kelibsiz!</div>
       </div>
 
-      <div class="col-12 d-xxl-flex justify-content-xxl-center">
+      <div class="col-12 d-xxl-flex justify-content-xxl-center" data-aos="fade-down" data-aos-delay="450">
         <div class="text-2">Ro’yxatdan o’tish</div>
       </div>
 
-      <div class="col-12 text-center input-box mt-5 d-xxl-flex justify-content-xxl-center">
+      <div class="col-12 text-center input-box mt-5 d-xxl-flex justify-content-xxl-center" data-aos="fade-right">
         <input placeholder="Abdullokh Khamzaev" type="text">
       </div>
 
-      <div class="col-12 text-center input-box mt-4 d-xxl-flex justify-content-xxl-center">
+      <div class="col-12 text-center input-box mt-4 d-xxl-flex justify-content-xxl-center" data-aos="fade-left">
         <input placeholder="(91) _ _ _-_ _-_ _" type="text">
       </div>
 
-      <div class="col-12 text-center input-box mt-4 d-xxl-flex justify-content-xxl-center">
+      <div class="col-12 text-center input-box mt-4 d-xxl-flex justify-content-xxl-center" data-aos="fade-right">
         <input placeholder="**********" type="text">
       </div>
 
-      <div class="col-12 mt-4 input-box text-center">
+      <div class="col-12 mt-4 input-box text-center" data-aos="fade-left">
         <div class="btn-box">
           <button> Ro’yxatdan o’tish</button>
         </div>
