@@ -2,13 +2,13 @@
   <div class="row main-row">
 
     <div class="col-12">
-      <div class="text-1">
+      <div class="text-1" data-aos="fade-down">
         Kursga yozilish!
       </div>
     </div>
 
     <div class="row d-flex justify-content-md-center">
-      <div class="col-12 col-md-9">
+      <div class="col-12 col-md-9" data-aos="fade-in" data-aos-delay="400">
         <div class="select-div">
           <select aria-label="Default select example" class="form-select">
             <option selected>Lavia Android Developer</option>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="col-12 col-md-2 d-flex justify-content-center justify-content-md-start">
-        <div class="button-div text-center mt-3">
+        <div class="button-div text-center mt-3" data-aos="fade-in" data-aos-delay="550">
           <button>To’lash</button>
         </div>
       </div>
@@ -30,28 +30,28 @@
       <div class="col-12 col-lg-11">
 
         <div class="row ps-4 ps-xl-0">
-          <div class="col-12 col-md-6 col-xl-3 mt-4 mt-md-5">
+          <div class="col-12 col-md-6 col-xl-3 mt-4 mt-md-5" data-aos="fade-in" data-aos-delay="700">
             <div class="card-course text-center">
               <div class="title">Boshlanish vaqti:</div>
               <div class="title-name">Noyabr</div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-xl-3 mt-md-5">
+          <div class="col-12 col-md-6 col-xl-3 mt-md-5" data-aos="fade-in" data-aos-delay="850">
             <div class="card-course text-center m-3">
               <div class="title">Kurs nomi:</div>
               <div class="title-name">Lavia android developer</div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-xl-3 mt-xl-5">
+          <div class="col-12 col-md-6 col-xl-3 mt-xl-5" data-aos="fade-in" data-aos-delay="1000">
             <div class="card-course text-center m-3">
               <div class="title">narxi:</div>
               <div class="title-name">1 000 000 so’m</div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-xl-3 mt-xl-5">
+          <div class="col-12 col-md-6 col-xl-3 mt-xl-5" data-aos="fade-in" data-aos-delay="1150">
             <div class="card-course text-center m-3">
               <div class="title">Qolgan joylar:</div>
               <div class="title-name">12</div>
@@ -62,7 +62,7 @@
       </div>
     </div>
     <div class="col-12">
-      <div class="text-2 ps-4 ps-md-3 ms-md-3 ps-xl-4 mt-xl-5">
+      <div class="text-2 ps-4 ps-md-3 ms-md-3 ps-xl-4 mt-xl-5 ms-xxl-5" data-aos="fade-right" data-aos-delay="1300">
         <span class="dark-text">Kurs haqida ma’lumot:</span>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
         luctus venenatis, lectus magna fringilla urna, porttitor

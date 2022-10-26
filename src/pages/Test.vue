@@ -5,13 +5,13 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <div class="text-1">
+          <div class="text-1" data-aos="fade-down">
             LAVIA ACADEMY TEST
           </div>
         </div>
       </div>
 
-      <div class="row test-block pt-lg-4 pe-lg-5 mt-5">
+      <div class="row test-block pt-lg-4 pe-lg-5 mt-5" data-aos="fade-right">
         <div class="col-12 col-lg-2">
           <div class="text-1-order">
             Savol <span class="order">1/20</span>
@@ -21,13 +21,13 @@
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col">
-              <div class="text-2">
+              <div class="text-2" data-aos="flip-down" data-aos-delay="400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis diam viverra sed est bibendum. Id
                 pellentesque ullamcorper nascetur auctor quis luctus.
               </div>
             </div>
           </div>
-          <div class="row pb-5">
+          <div class="row pb-5" data-aos="flip-down" data-aos-delay="600">
             <div class="col-12 col-md-6 mt-4 ps-xxl-4">
               <div class="form-check">
                 <input id="exampleRadios1" checked class="form-check-input" name="exampleRadios" type="radio" value="option1">
@@ -38,8 +38,7 @@
             </div>
             <div class="col-12 col-md-6 mt-4 ps-xxl-4">
               <div class="form-check">
-                <input id="exampleRadios2" checked class="form-check-input" name="exampleRadios" type="radio"
-                       value="option1">
+                <input id="exampleRadios2" checked class="form-check-input" name="exampleRadios" type="radio" value="option1">
                 <label class="form-check-label" for="exampleRadios2">
                   Flat body
                 </label>
@@ -67,7 +66,7 @@
         </div>
       </div>
 
-      <div class="row test-block pt-lg-4 pe-lg-5 mt-5">
+      <div class="row test-block pt-lg-4 pe-lg-5 mt-5" data-aos="fade-left">
         <div class="col-12 col-lg-2">
           <div class="text-1-order">
             Savol <span class="order">2/20</span>
@@ -77,13 +76,13 @@
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col">
-              <div class="text-2">
+              <div class="text-2" data-aos="flip-down" data-aos-delay="400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis diam viverra sed est bibendum. Id
                 pellentesque ullamcorper nascetur auctor quis luctus.
               </div>
             </div>
           </div>
-          <div class="row pb-5">
+          <div class="row pb-5" data-aos="flip-down" data-aos-delay="600">
             <div class="col-12 col-md-6 mt-4 ps-xxl-4">
               <div class="form-check">
                 <input id="exampleRadios5" checked class="form-check-input" name="exampleRadios" type="radio" value="option1">
@@ -121,7 +120,7 @@
         </div>
       </div>
 
-      <div class="row test-block pt-lg-4 pe-lg-5 mt-5 mb-5">
+      <div class="row test-block pt-lg-4 pe-lg-5 mt-5 mb-5" data-aos="fade-right">
         <div class="col-12 col-lg-2">
           <div class="text-1-order">
             Savol <span class="order">3/20</span>
@@ -131,13 +130,13 @@
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col">
-              <div class="text-2">
+              <div class="text-2" data-aos="flip-down" data-aos-delay="400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis diam viverra sed est bibendum. Id
                 pellentesque ullamcorper nascetur auctor quis luctus.
               </div>
             </div>
           </div>
-          <div class="row pb-5">
+          <div class="row pb-5" data-aos="flip-down" data-aos-delay="600">
             <div class="col-12 col-md-6 mt-4 ps-xxl-4">
               <div class="form-check">
                 <input id="exampleRadios9" checked class="form-check-input" name="exampleRadios" type="radio" value="option1">
@@ -148,8 +147,7 @@
             </div>
             <div class="col-12 col-md-6 mt-4 ps-xxl-4">
               <div class="form-check">
-                <input id="exampleRadios10" checked class="form-check-input" name="exampleRadios" type="radio"
-                       value="option1">
+                <input id="exampleRadios10" checked class="form-check-input" name="exampleRadios" type="radio" value="option1">
                 <label class="form-check-label" for="exampleRadios10">
                   Insect
                 </label>
@@ -157,8 +155,7 @@
             </div>
             <div class="col-12 col-md-6 mt-4 ps-xxl-4">
               <div class="form-check">
-                <input id="exampleRadios11" checked class="form-check-input" name="exampleRadios" type="radio"
-                       value="option1">
+                <input id="exampleRadios11" checked class="form-check-input" name="exampleRadios" type="radio" value="option1">
                 <label class="form-check-label" for="exampleRadios11">
                   Flat body
                 </label>
