@@ -286,7 +286,7 @@ export default {
   name: "HomePageContent",
   methods: {
     bonus() {
-      this.$router.push('/bonus')
+      this.$router.push('/test')
     },
     reception() {
       this.$router.push('/reception')
