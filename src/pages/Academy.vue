@@ -2,14 +2,14 @@
   <Header color="#F5F5F5"/>
   <div class="row text-center main-row">
     <div class="col-12">
-      <div class="text-1 mt-5 pt-3">
+      <div class="text-1 mt-5 pt-3" data-aos="fade-down" data-aos-delay="300">
         LAVIA ACADEMY
       </div>
       <!-- Bg Curl -->
       <div>
         <img alt="#" class="bg-curl3" src="../assets/images/curly-bg3.png">
       </div>
-      <div class="text-2 mt-3">
+      <div class="text-2 mt-3" data-aos="fade-up">
         Lavia kompaniyasi Xitoylik
         investorlar tomonidan
         moliyalashtirilgan bo‘lib, O‘zbekistonda aniq
@@ -18,14 +18,16 @@
       </div>
     </div>
   </div>
+  <Footer />
 </template>
 
 <script>
 import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "Academy",
-  components: {Header}
+  components: {Footer, Header}
 }
 </script>
 

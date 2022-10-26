@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="col-6 col-md-4 col-xl-2 d-flex justify-content-md-start mt-0 p-0 ps-sm-2 mt-md-5" data-aos="fade-in" data-aos-delay="600">
+        <div class="col-6 col-md-4 col-xl-2 d-flex justify-content-md-start mt-0 p-0 ps-sm-2 mt-md-5" data-aos="fade-in" data-aos-delay="550">
           <ul class="service-ul">
             <li class="list-name">Services</li>
             <li>Documentation</li>
@@ -51,17 +51,17 @@
           </ul>
         </div>
 
-        <div class="col-6 col-md-4 col-xl-2 d-md-flex justify-content-md-center p-0 pe-sm-2 mt-xl-5" data-aos="fade-in" data-aos-delay="800">
+        <div class="col-6 col-md-4 col-xl-2 d-md-flex justify-content-md-center p-0 pe-sm-2 mt-xl-5" data-aos="fade-in" data-aos-delay="700">
           <ul class="ul2">
             <li class="list-name">Company</li>
-            <li>About</li>
+            <li @click="about">About</li>
             <li>Terms</li>
             <li>Privacy Policy</li>
             <li>Careers</li>
           </ul>
         </div>
 
-        <div class="col-4 col-xl-2 d-md-flex justify-content-md-center p-0 ps-sm-2 mt-xl-5" data-aos="fade-in" data-aos-delay="1000">
+        <div class="col-4 col-xl-2 d-md-flex justify-content-md-center p-0 ps-sm-2 mt-xl-5" data-aos="fade-in" data-aos-delay="850">
           <ul>
             <li class="list-name">Job Info</li>
             <li>Select</li>
@@ -70,7 +70,7 @@
           </ul>
         </div>
 
-        <div class="col p-0 pe-sm-2 mt-xl-5 d-md-flex justify-content-md-center" data-aos="fade-in" data-aos-delay="1200">
+        <div class="col p-0 pe-sm-2 mt-xl-5 d-md-flex justify-content-md-center" data-aos="fade-in" data-aos-delay="1000">
           <ul class="ul2">
             <li class="list-name">Contact</li>
             <li>Call : 99 982 34 43</li>
@@ -97,6 +97,9 @@ export default {
   methods: {
     register() {
       this.$router.push('/register')
+    },
+    about() {
+      this.$router.push('/academy')
     }
   }
 }
@@ -104,7 +107,6 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
-
 .top-side {
   background-color: #2A2A31;
 }
@@ -178,6 +180,7 @@ li {
   color: #B3B3B3;
   font-weight: 400;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .hr-box {
