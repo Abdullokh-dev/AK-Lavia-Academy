@@ -268,7 +268,7 @@
           <div class="acceptance-box-text-last">
             Ko’proq ma’lumot olish uchun qabul menyusiga o’ting !!
           </div>
-          <button class="acceptance-btn">Qabul</button>
+          <button class="acceptance-btn" @click="reception">Qabul</button>
         </div>
       </div>
     </div>
@@ -287,6 +287,9 @@ export default {
   methods: {
     bonus() {
       this.$router.push('/bonus')
+    },
+    reception() {
+      this.$router.push('/reception')
     }
   },
   components: {Header}
@@ -303,9 +306,9 @@ export default {
 }
 
 .btn-alert {
-  margin: -45px 10px 0 0;
-  width: 57px;
-  height: 57px;
+  margin: -50px 10px 0 0;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
   border: none;
   color: white;
@@ -321,7 +324,9 @@ export default {
 }
 
 .discount {
-  font-size: 9px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 .header-text {

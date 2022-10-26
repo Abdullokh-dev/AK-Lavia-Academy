@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="col">
-          <button class="send-btn">Ro’yxatdan o’tish</button>
+          <button class="send-btn" @click="register">Ro’yxatdan o’tish</button>
         </div>
         <div class="col d-flex align-items-end d-none d-lg-block">
           <img src="../assets/images/footer-img.png" width="350" alt="#" class="image">
@@ -94,6 +94,11 @@
 <script>
 export default {
   name: "Footer",
+  methods: {
+    register() {
+      this.$router.push('/register')
+    }
+  }
 }
 </script>
 

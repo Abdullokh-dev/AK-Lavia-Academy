@@ -18,6 +18,10 @@ const routes = [
         component: () => import('../pages/Register.vue')
     },
     {
+        path: '/buy-course',
+        component: () => import('../pages/BuyCourse.vue')
+    },
+    {
         path: '/bonus',
         component: () => import('../pages/Bonus.vue')
     },

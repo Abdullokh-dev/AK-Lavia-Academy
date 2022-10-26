@@ -26,7 +26,7 @@
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4">
-        <img src="../assets/images/reception/one.png">
+        <img src="../assets/images/reception/one.png" alt="#">
         <div class="course-name">
           Lavia android developer
         </div>
@@ -38,14 +38,14 @@
           <br>Mobile Development<br>Linux Web Development<br> Bash ( Unix S hell) <br>Git hub<br> GIT
         </div>
         <div class="pb-4">
-          <button class="course-btn"> Kursga yozilish</button>
+          <button class="course-btn" @click="buyCourse"> Kursga yozilish</button>
         </div>
       </div>
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4">
-        <img src="../assets/images/reception/two.png">
+        <img src="../assets/images/reception/two.png" alt="#">
         <div class="course-name">
           Lavia IOS Developer
         </div>
@@ -58,14 +58,14 @@
           Github<br>Version Control<br>
         </div>
         <div class="pb-4">
-          <button class="course-btn"> Kursga yozilish</button>
+          <button class="course-btn" @click="buyCourse"> Kursga yozilish</button>
         </div>
       </div>
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4">
-        <img src="../assets/images/reception/three.png">
+        <img src="../assets/images/reception/three.png" alt="#">
         <div class="course-name">
           Lavia Cybersecurity Analyst
         </div>
@@ -78,14 +78,14 @@
           database vulnerabilities<br>Network Security<br>Sql Injection<br>
         </div>
         <div class="pb-4">
-          <button class="course-btn"> Kursga yozilish</button>
+          <button class="course-btn" @click="buyCourse"> Kursga yozilish</button>
         </div>
       </div>
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4">
-        <img src="../assets/images/reception/four.png">
+        <img src="../assets/images/reception/four.png" alt="#">
         <div class="course-name">
           Lavia Full Stack Software Developer
         </div>
@@ -98,7 +98,7 @@
           database vulnerabilities<br>Network Security<br>Sql Injection<br>
         </div>
         <div class="pb-4">
-          <button class="course-btn"> Kursga yozilish</button>
+          <button class="course-btn" @click="buyCourse"> Kursga yozilish</button>
         </div>
       </div>
     </div>
@@ -116,14 +116,12 @@
 
     <div class="col-12 col-md-4 col-xl-6 text-center">
       <div class="button-div">
-        <button class="get-course-btn mt-3 mt-md-0">
-          Kursga yozilish
-        </button>
+        <button class="get-course-btn mt-3 mt-md-0" @click="buyCourse"> Kursga yozilish </button>
       </div>
     </div>
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-6 col-xl-3 text-center mt-5">
-        <img src="../assets/images/reception/teacher-1.png">
+        <img src="../assets/images/reception/teacher-1.png" alt="#">
         <div class="teacher-name">Khamzaev Abdullokh</div>
         <div class="teacher-position">Director</div>
         <div class="teacher-diploma">Oliy ma’lumot</div>
@@ -160,7 +158,7 @@
       </div>
 
       <div class="col-12 col-md-6 col-xl-3 mt-5 text-center">
-        <img src="../assets/images/reception/teacher-2.png">
+        <img src="../assets/images/reception/teacher-2.png" alt="#">
         <div class="teacher-name">Rustamova Nigina</div>
         <div class="teacher-position">O'quvchi</div>
         <div class="teacher-diploma">Mentor</div>
@@ -197,7 +195,7 @@
       </div>
 
       <div class="col-12 mt-5 col-xl-3 text-center">
-        <img src="../assets/images/reception/teacher-3.png">
+        <img src="../assets/images/reception/teacher-3.png" alt="#">
         <div class="teacher-name">Oybekov Doston</div>
         <div class="teacher-position">Mentor</div>
         <div class="teacher-diploma">Oliy ta'lim</div>
@@ -243,6 +241,11 @@ import Footer from "../components/Footer.vue";
 
 export default {
   name: "Reception",
+  methods: {
+    buyCourse() {
+      this.$router.push('/buy-course')
+    }
+  },
   components: {Footer, Header}
 }
 </script>
@@ -290,8 +293,8 @@ export default {
 }
 
 .course-card > img {
-  width: 72px;
-  margin-top: -35px;
+  width: 80px;
+  margin-top: -75px;
 }
 
 .course-name {

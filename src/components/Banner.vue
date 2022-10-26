@@ -13,7 +13,7 @@
           </span>
         </div>
         <div class="mt-4 mb-5 pb-4">
-          <button class="more-info-btn"> Batafsil ma’lumot</button>
+          <button class="more-info-btn" @click="academy"> Batafsil ma’lumot</button>
         </div>
       </div>
     </div>
@@ -44,6 +44,11 @@
 import Header from "./Header.vue";
 export default {
   name: "Banner",
+  methods: {
+    academy() {
+      this.$router.push('/academy')
+    }
+  },
   components: {Header}
 }
 </script>
