@@ -19,13 +19,15 @@
           </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="lists-group lists-toggled">
-            <li><span class="list-item" @click="home">Bosh sahifa</span></li>
-            <li><span class="list-item" @click="reception">Qabul</span></li>
-            <li><span class="list-item" @click="academy">Akademiya</span></li>
-            <hr />
-            <li><span class="list-item" @click="register">Ro’yxatdan o’tish</span></li>
-          </ul>
+          <div class="d-flex justify-content-center">
+            <ul class="lists-group lists-toggled">
+              <li><span class="list-item" @click="home">Bosh sahifa</span></li>
+              <li><span class="list-item" @click="reception">Qabul</span></li>
+              <li><span class="list-item" @click="academy">Akademiya</span></li>
+              <hr />
+              <li><span class="list-item" @click="register">Ro’yxatdan o’tish</span></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -116,7 +118,7 @@ img {
 
 .lists-toggled {
   list-style: none;
-  float: right;
+  text-align: center;
 }
 
 .lists-toggled > li {
