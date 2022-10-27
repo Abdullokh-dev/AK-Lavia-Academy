@@ -1,7 +1,7 @@
 <template>
   <div class="row">
 
-    <div class="col-12 col-lg-3 p-0">
+    <div class="col-12 col-lg-3 p-0" data-aos="fade-down">
       <div class="image-box"></div>
     </div>
 
@@ -45,7 +45,7 @@ export default {
 <style scoped>
 .image-box {
   background-image: url("../assets/images/register/img_1.png");
-  height: 220px;
+  height: 100px;
   width: 100%;
   background-size: cover;
 }
