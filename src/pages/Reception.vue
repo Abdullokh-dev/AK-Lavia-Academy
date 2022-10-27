@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-xl-4 col-xxl-3 d-flex justify-content-center">
+    <div class="col-12 col-md-6 col-xl-4 ps-xxl-5 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="400">
         <img src="../assets/images/reception/one.png" alt="#">
         <div class="course-name">
@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-xl-4 col-xxl-3 d-flex justify-content-center">
+    <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="500">
         <img src="../assets/images/reception/two.png" alt="#">
         <div class="course-name">
@@ -63,7 +63,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-xl-4 col-xxl-3 d-flex justify-content-center">
+    <div class="col-12 col-md-6 col-xl-4 pe-xxl-5 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="600">
         <img src="../assets/images/reception/three.png" alt="#">
         <div class="course-name">
@@ -83,7 +83,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-xl-4 col-xxl-3 d-flex justify-content-center">
+    <div class="col-12 col-md-6 col-xl-4 ps-xxl-5 d-flex justify-content-center">
       <div class="course-card mt-5 pt-4" data-aos="fade-in" data-aos-delay="700">
         <img src="../assets/images/reception/four.png" alt="#">
         <div class="course-name">
