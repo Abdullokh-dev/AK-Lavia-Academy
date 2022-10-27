@@ -15,7 +15,7 @@
         <div class="col" data-aos="fade-right" data-aos-delay="400">
           <button class="send-btn" @click="register">Ro’yxatdan o’tish</button>
         </div>
-        <div class="col d-flex align-items-end d-none d-lg-block" data-aos="fade-left" data-aos-delay="400">
+        <div class="col d-flex align-items-end d-none d-lg-block" data-aos="fade-up" data-aos-delay="400">
           <img src="../assets/images/footer-img.png" width="350" alt="#" class="image">
         </div>
       </div>

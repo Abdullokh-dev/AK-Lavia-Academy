@@ -7,6 +7,14 @@
 
     <!-- Btn alert -->
     <div class="alert d-flex justify-content-end">
+<!--      <div class="wrapper" data-aos="zoom-in-left" data-aos-delay="1500">-->
+<!--        <div class="icon">-->
+<!--          <div>-->
+<!--            <span class="percent">50%</span> <span class="discount">Chegirma</span>-->
+<!--          </div>-->
+<!--          <span class="tooltip">Facebook</span>-->
+<!--        </div>-->
+<!--      </div>-->
       <button class="btn-alert" @click="bonus" data-aos="zoom-in-left" data-aos-delay="1500">
         <span class="percent">50%</span> <span class="discount">Chegirma</span>
       </button>
@@ -96,7 +104,7 @@
       <div>
         <img alt="#" class="bg-curl" src="../assets/images/curly-bg4.png" style="opacity: 0.3">
       </div>
-      <div class="header3-left-side ps-md-3" data-aos="flip-up">
+      <div class="header3-left-side ps-md-3" data-aos="fade-up">
         <p class="header3-text mt-md-0 mt-lg-5">
           Ular o‘z loyihalari rivoji uchun <span class="fried-text">MILLION DOLLARLAB</span> mablag‘ sarflashmoqda.
           Bu million dollarlar aynan kimlarga sarf qilinmoqda bilasizmi?
@@ -116,7 +124,7 @@
       <div>
         <img alt="#" class="bg-curl3" src="../assets/images/curly-bg3.png">
       </div>
-      <img alt="#" class="steve" src="../assets/images/steve.png" style="z-index: 1" data-aos="flip-up">
+      <img alt="#" class="steve" src="../assets/images/steve.png" style="z-index: 1" data-aos="zoom-up">
     </div>
 
     <div class="col-12">
@@ -304,6 +312,66 @@ export default {
 .alert {
   cursor: pointer;
 }
+/*TODO*/
+
+/*.wrapper .icon {*/
+/*  position: relative;*/
+/*  padding: 15px;*/
+/*  margin: 10px;*/
+/*  width: 50px;*/
+/*  height: 50px;*/
+/*  font-size: 18px;*/
+/*  background-color: #EE787E;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  cursor: pointer;*/
+/*  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+/*}*/
+
+/*.wrapper .tooltip {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  font-size: 14px;*/
+/*  background: #ffffff;*/
+/*  color: #ffffff;*/
+/*  padding: 5px 8px;*/
+/*  border-radius: 5px;*/
+/*  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);*/
+/*  opacity: 0;*/
+/*  pointer-events: none;*/
+/*  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+/*}*/
+
+/*.wrapper .tooltip::before {*/
+/*  position: absolute;*/
+/*  content: "";*/
+/*  height: 8px;*/
+/*  width: 8px;*/
+/*  background: #ffffff;*/
+/*  bottom: -3px;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%) rotate(45deg);*/
+/*  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+/*}*/
+
+/*.wrapper .icon:hover .tooltip {*/
+/*  top: -45px;*/
+/*  opacity: 1;*/
+/*  visibility: visible;*/
+/*  pointer-events: auto;*/
+/*}*/
+
+/*.wrapper .icon:hover span,*/
+/*.wrapper .icon:hover .tooltip {*/
+/*  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.wrapper .facebook:hover,*/
+/*.wrapper .facebook:hover .tooltip,*/
+/*.wrapper .facebook:hover .tooltip::before {*/
+/*  background: #1877F2;*/
+/*  color: #ffffff;*/
+/*}*/
 
 .btn-alert {
   margin: -50px 10px 0 0;
