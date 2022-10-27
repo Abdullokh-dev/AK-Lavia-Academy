@@ -121,7 +121,7 @@
 
     <div class="col-12  col-md-4 d-flex justify-content-end">
       <!-- Bg Curl -->
-      <div>
+      <div class="d-none d-md-block">
         <img alt="#" class="bg-curl3" src="../assets/images/curly-bg3.png">
       </div>
       <img alt="#" class="steve" src="../assets/images/steve.png" style="z-index: 1" data-aos="zoom-up">
@@ -156,13 +156,13 @@
     </div>
     <!-- Bg Curl -->
     <div>
-      <img alt="#" class="bg-curl2 m-0" src="../assets/images/curly-bg-6.png">
+      <img alt="#" class="bg-curl2 m-0" src="../assets/images/curly-bg-6.png" style="z-index: 1">
     </div>
 
     <div class="row flex-row-reverse">
 
-      <div class="col-12 col-md-6" data-aos="fade-down" data-aos-easing="linear">
-        <div class="about-academy2-text">
+      <div class="col-12 col-md-6" data-aos="fade-down" data-aos-easing="linear" style="z-index: 2">
+        <div class="about-academy2-text ms-4 ms-md-0">
           Shu sababdan kompaniya o‘zi uchun mutaxassislarni yetishtirib chiqarishni maqsad qildi va <span
           class="oranged">LAVIA ACADEMY</span>
           tashkil qilindi.
@@ -180,7 +180,7 @@
         </p>
       </div>
 
-      <div class="col-12 col-md-6 d-flex justify-content-center mt-5" data-aos="fade-up" data-aos-easing="linear">
+      <div class="col-12 col-md-6 d-flex justify-content-center ps-5 ps-md-0 mt-5" data-aos="fade-up" data-aos-easing="linear">
         <img alt="#" class="laptop" src="../assets/images/sitting-with-laptop.png" width="350">
       </div>
 
