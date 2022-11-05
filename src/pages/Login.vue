@@ -10,50 +10,17 @@
         <div class="text-1">Xush kelibsiz!</div>
       </div>
 
-      <div class="col-12 d-xxl-flex justify-content-xxl-center" data-aos="fade-down" data-aos-delay="450">
-        <div class="text-2">Ro’yxatdan o’tish</div>
-      </div>
-
       <div class="col-12 text-center input-box mt-4 d-xxl-flex justify-content-xxl-center" data-aos="fade-right">
         <input placeholder="email" type="email">
       </div>
 
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center" data-aos="fade-right">
+      <div class="col-12 text-center input-box mt-4 d-xxl-flex justify-content-xxl-center" data-aos="fade-left">
         <input placeholder="**********" type="password">
       </div>
 
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center" data-aos="fade-left">
-        <input placeholder="Given Name" type="text">
-      </div>
-
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center" data-aos="fade-right">
-        <input placeholder="Family Name" type="text">
-      </div>
-
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center" data-aos="fade-left">
-        <input placeholder="Patronymic" type="text">
-      </div>
-
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center" data-aos="fade-right">
-        <input placeholder="(91) _ _ _-_ _-_ _" type="text">
-      </div>
-
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center">
-        <input placeholder="Address" type="text">
-      </div>
-
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center">
-        <input placeholder="Age" type="number">
-      </div>
-
-      <div class="col-12 text-center input-box mt-3 d-xxl-flex justify-content-xxl-center">
-        <input placeholder="Address" type="text">
-      </div>
-
-
-      <div class="col-12 mt-3 input-box text-center">
+      <div class="col-12 mt-4 input-box text-center" data-aos="fade-right">
         <div class="btn-box">
-          <button> Ro’yxatdan o’tish</button>
+          <button> Kirish </button>
         </div>
       </div>
     </div>
@@ -82,22 +49,6 @@ export default {
   font-size: 21px;
   font-weight: 500;
   line-height: 24px;
-}
-
-.text-2 {
-  color: black;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 24px;
-  margin-top: 15px;
-}
-
-.right-side {
-  height: 100vh;
-  overflow-y: scroll;
-  user-select: none;
-  padding-bottom: 50px;
 }
 
 input {
@@ -133,16 +84,19 @@ button {
     height: 100vh;
   }
 
+  .right-side {
+    height: 100vh;
+    overflow-y: scroll;
+    user-select: none;
+    padding-top: 17vh;
+    padding-bottom: 50px;
+  }
+
   .text-1 {
     font-size: 28px;
     text-align: left;
     padding-left: 50px;
     margin-top: 60px;
-  }
-
-  .text-2 {
-    text-align: left;
-    padding-left: 50px;
   }
 
   .input-box {
